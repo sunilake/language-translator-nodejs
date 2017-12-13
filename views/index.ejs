@@ -25,58 +25,11 @@
     <link href="css/browser-compatibility.css" rel="stylesheet">
 </head>
 <body>
-    <!-- top nav section -->
-    <div class="navbar-wrapper">
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <!-- IBM Watson Logo -->
-                <div class="navbar-header">
-                    <a class="navbar-brand no-underline" href="https://www.ibm.com/watson/developer/"><span class="thin-branding">IBM</span> Watson Developer Cloud</a>
-                </div>
-                <div class="float-right">
-                    <ul class="nav navbar-nav">
-                        <li><a href="https://www.ibm.com/watson/products-services/" class="">Services</a></li>
-                        <li><a href="http://www.ibm.com/watson/developercloud/doc/" class="no-underline">Docs</a></li>
-                        <li><a href="http://www.ibm.com/watson/developercloud/starter-kits.html" class="no-underline">Starter Kits</a></li>
-                        <li><a href="https://developer.ibm.com/watson/" class="no-underline">Community</a></li>
-                    </ul>
-                </div>
-                <!-- .navbar right-->
-            </div>
-            <!-- .container -->
-        </div>
-        <!-- .navbar -->
-    </div>
-    <!-- .navbar-wrapper -->
-    <!-- Service Description Bar -->
-    <div class="header">
-        <div class="container">
-            <div class="col-lg-2 col-md-2 hidden-sm hidden-xs">
-                <img src="images/language-translator.svg" class="service-icon">
-            </div>
-            <div class="col-lg-10 col-md-10 col-sm-12">
-                <h1>Language Translator</h1>
-                <p>The IBM Watson Language Translator service converts text input in one language into a destination language for the end user using background from domain-specific models. Translation is available among Arabic, Chinese, English, French, Portuguese, German, and Spanish (some languages may not be available for all domains).</p>
-                <p><img src="images/link.svg" class="glyph"><strong>Resources:</strong></br>
-                    <div class="resources">
-                        <a href="http://www.ibm.com/watson/developercloud/language-translator/api/v2/">API Overview</a>
-                        <a href="https://console.bluemix.net/docs/services/language-translator/getting-started.html">Documentation</a>
-                        <a href="https://github.com/watson-developer-cloud/language-translator-nodejs">Fork on Github</a>
-                        <a class="base--button base--button_fill" href="https://console.ng.bluemix.net/registration/?target=/catalog/services/language-translator/">Start free in Bluemix</a>
-                    </div>
-                    <!-- .resources -->
-                </p>
-            </div>
-            <!-- .col-lg-10 -->
-        </div>
-        <!-- .container -->
-    </div>
-    <!-- .header -->
     <!-- Step 2 Section-->
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <h2>Choose a Domain</h2>
+            <div>
+                <h5>Choose a Domain</h5>
             </div>
             <!-- .col-lg-12 -->
             <div class="col-lg-8 col-md-12 col-sm-12">
@@ -103,7 +56,7 @@
         <!-- First column of inputs -->
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <h2>Translate Text</h2>
+                <h5>Translate Text</h5>
             </div>
             <!-- .col-lg-12 -->
             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -222,9 +175,6 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="demo.js"></script>
-        <% if (bluemixAnalytics) { %>
-          <script type="text/javascript" src="js/analytics.js"></script>
-        <% } %>
 </body>
 
 </html>

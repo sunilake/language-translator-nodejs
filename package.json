@@ -10,7 +10,6 @@
     "express-rate-limit": "~2.9.0",
     "express-secure-only": "^0.2.1",
     "extend": "~3.0.1",
-    "helmet": "~3.8.1",
     "jade": "~1.11.0",
     "morgan": "~1.8.2",
     "watson-developer-cloud": "~2.39.0"
