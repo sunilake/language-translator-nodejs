@@ -69,7 +69,7 @@ $(document).ready(function () {
     type: 'GET',
     url: '/api/models',
     headers: {
-          'X-Watson-Technology-Preview': nmtValue
+      'X-Watson-Technology-Preview': nmtValue
     },
     async: true
   })
@@ -82,7 +82,7 @@ $(document).ready(function () {
         type: 'GET',
         url: '/api/identifiable_languages',
         headers: {
-              'X-Watson-Technology-Preview': nmtValue
+          'X-Watson-Technology-Preview': nmtValue
         },
         async: true
       })
@@ -175,7 +175,7 @@ $(document).ready(function () {
         type: 'POST',
         url: '/api/identify',
         headers: {
-              'X-Watson-Technology-Preview': nmtValue
+          'X-Watson-Technology-Preview': nmtValue
         },
         data: {
           textData: $('#home textarea').val()
