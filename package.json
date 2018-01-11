@@ -21,18 +21,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/watson-developer-cloud/language-translator-nodejs.git"
+    "url": "https://github.com/sunilake/language-translator-nodejs.git"
   },
   "author": "IBM Corp.",
   "contributors": [
     {
-      "name": "German Attanasio Ruiz",
-      "email": "germanatt@us.ibm.com"
+      "name": "Sunil Babu K C",
+      "email": "sunibabu@in.ibm.com"
     }
   ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/watson-developer-cloud/language-translator-nodejs/issues"
+    "url": "https://github.com/sunilake/language-translator-nodejs/issues"
   },
   "scripts": {
     "start": "node app.js",
